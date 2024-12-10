@@ -1,0 +1,60 @@
+.selected-item {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+}
+
+.selected-item code {
+    display: block;
+    background: #fff;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+    border: 1px solid #e9ecef;
+    word-break: break-all;
+}
+
+.selected-item .text-muted {
+    font-size: 0.85em;
+    margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.preview-container {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#selectorType {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.selected-elements-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Custom scrollbar for the selected elements list */
+.selected-elements-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.selected-elements-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.selected-elements-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.selected-elements-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
